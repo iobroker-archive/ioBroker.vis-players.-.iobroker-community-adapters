@@ -2,7 +2,7 @@
     "common": {
         "name":                     "vis-players",
         "version": "0.1.5",
-        "title":                    "ioBroker Visualisation - Media players widgets",
+        "title":                    "Visualisation - Media players widgets",
 		"news": {
             "0.1.4": {
                 "en": 				"fix seek. fix autoload object in settings",
