@@ -408,6 +408,7 @@ vis.binds.players = {
                 path = getPath(folder);
                 current_path = folder;
                 vis.setValue(data.oid_browser, folder);
+		return;
             });
         }
 
