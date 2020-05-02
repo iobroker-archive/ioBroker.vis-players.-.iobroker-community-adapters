@@ -1,9 +1,14 @@
 {
     "common": {
         "name":                     "vis-players",
-        "version": "0.1.5",
+        "version": "0.1.6",
         "title":                    "Visualisation - Media players widgets",
 		"news": {
+	"0.1.6": {
+                "en": 				"fix error",
+                "de": 				"fix error",
+                "ru": 				"fix error"
+            },
             "0.1.4": {
                 "en": 				"fix seek. fix autoload object in settings",
                 "de": 				"fix seek. fix autoload object in settings",
