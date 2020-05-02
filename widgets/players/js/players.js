@@ -401,7 +401,9 @@ vis.binds.players = {
                     });
                 }
             }
-            $div.find('.browser-container').on('click', 'li', function(){
+        }
+	    
+	 $div.on('click', '.browser-container li', function(){
                 var n = $(this).index();
                 var folder = browser.files[n].file;
                 console.log('click - ' + folder);
@@ -410,7 +412,6 @@ vis.binds.players = {
                 vis.setValue(data.oid_browser, folder);
 		return;
             });
-        }
 
         if (data.oid_browser && data.oid_browser !== 'nothing_selected'){
             browser = vis.states[data.oid_browser + '.val'];
