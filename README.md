@@ -15,6 +15,9 @@ Widgets for media players.
 
 ## Changelog
 
+#### 0.1.7
+* (instalator) added test
+
 #### 0.1.6
 * (instalator) fix error
 
