@@ -1,62 +1,77 @@
 {
-    "common": {
-        "name":                     "vis-players",
-        "version": "0.1.6",
-        "title":                    "Visualisation - Media players widgets",
-		"news": {
-	"0.1.6": {
-                "en": 				"fix error",
-                "de": 				"fix error",
-                "ru": 				"fix error"
-            },
-            "0.1.4": {
-                "en": 				"fix seek. fix autoload object in settings",
-                "de": 				"fix seek. fix autoload object in settings",
-                "ru": 				"fix seek. fix autoload object in settings"
-            },
-            "0.1.2": {
-                "en": 				"fix for foobar2000",
-                "de": 				"fix for foobar2000",
-                "ru": 				"fix for foobar2000"
-            },
-            "0.1.1": {
-                "en": 				"change oid_pos to oid_track\nchange file manager for kodi",
-                "de": 				"change oid_pos to oid_track\nchange file manager for kodi",
-                "ru": 				"change oid_pos to oid_track\nchange file manager for kodi"
-            },
-            "0.1.0": {
-                "en": 				"new widget like Sonos",
-                "de": 				"Neues Widget für Sonos",
-                "ru": 				"Новый виджет для Sonos"
-            }
-		},
-        "desc": {
-            "en":                   "Media Players Widgets for ioBroker.vis",
-            "de":                   "Media Players Widgets für ioBroker.vis",
-            "ru":                   "Media Players Widgets для ioBroker.vis"
-        },
-        "platform":                 "Javascript/Node.js",
-        "icon":                     "players.png",
-        "enabled":                  true,
-        "mode":                     "once",
-        "extIcon":                  "https://raw.githubusercontent.com/instalator/ioBroker.vis-players/master/admin/players.png",
-        "keywords":                 ["players", "vis", "GUI", "graphical", "scada"],
-        "readme":                   "https://github.com/instalator/ioBroker.vis-players/blob/master/README.md",
-        "authors": [
-            "instalator <vvvalt@mail.ru>"
-        ],
-        "localLink":                "%web_protocol%://%ip%:%web_port%/vis/edit.html",
-        "license":                  "MIT",
-        "dependencies":             ["vis"],
-        "onlyWWW":                  true,
-        "noConfig":                 true,
-        "singleton":                true,
-        "type":                     "visualization-widgets",
-        "restartAdapters":          ["vis"]
+  "common": {
+    "name": "vis-players",
+    "version": "0.1.7",
+    "title": "Visualisation - Media players widgets",
+    "news": {
+      "0.1.7": {
+        "en": "fix error",
+        "de": "fix error",
+        "ru": "fix error"
+      },
+      "0.1.6": {
+        "en": "fix error",
+        "de": "fix error",
+        "ru": "fix error"
+      },
+      "0.1.4": {
+        "en": "fix seek. fix autoload object in settings",
+        "de": "fix seek. fix autoload object in settings",
+        "ru": "fix seek. fix autoload object in settings"
+      },
+      "0.1.2": {
+        "en": "fix for foobar2000",
+        "de": "fix for foobar2000",
+        "ru": "fix for foobar2000"
+      },
+      "0.1.1": {
+        "en": "change oid_pos to oid_track\nchange file manager for kodi",
+        "de": "change oid_pos to oid_track\nchange file manager for kodi",
+        "ru": "change oid_pos to oid_track\nchange file manager for kodi"
+      },
+      "0.1.0": {
+        "en": "new widget like Sonos",
+        "de": "Neues Widget für Sonos",
+        "ru": "Новый виджет для Sonos"
+      }
     },
-    "native": {
-        "dependencies":          []
+    "desc": {
+      "en": "Media Players Widgets for ioBroker.vis",
+      "de": "Media Players Widgets für ioBroker.vis",
+      "ru": "Media Players Widgets для ioBroker.vis"
     },
-    "instanceObjects": [
+    "platform": "Javascript/Node.js",
+    "icon": "players.png",
+    "enabled": true,
+    "mode": "once",
+    "extIcon": "https://raw.githubusercontent.com/instalator/ioBroker.vis-players/master/admin/players.png",
+    "keywords": [
+      "players",
+      "vis",
+      "GUI",
+      "graphical",
+      "scada"
+    ],
+    "readme": "https://github.com/instalator/ioBroker.vis-players/blob/master/README.md",
+    "authors": [
+      "instalator <vvvalt@mail.ru>"
+    ],
+    "localLink": "%web_protocol%://%ip%:%web_port%/vis/edit.html",
+    "license": "MIT",
+    "dependencies": [
+      "vis"
+    ],
+    "onlyWWW": true,
+    "noConfig": true,
+    "singleton": true,
+    "type": "visualization-widgets",
+    "restartAdapters": [
+      "vis"
     ]
+  },
+  "native": {
+    "dependencies": []
+  },
+  "instanceObjects": [
+  ]
 }
