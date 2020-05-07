@@ -12,7 +12,7 @@
 
 
 Widgets for media players.
-
+ 
 ## Changelog
 
 #### 0.1.7
