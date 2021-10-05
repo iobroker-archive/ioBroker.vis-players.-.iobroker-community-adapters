@@ -10,10 +10,10 @@
     "instalator <vvvalt@mail.ru>",
     "bluefox <dogafox@gmail.com>"
   ],
-  "homepage": "https://github.com/instalator/ioBroker.vis-players",
+  "homepage": "https://github.com/iobroker-community-adapters/ioBroker.vis-players",
   "repository": {
     "type": "git",
-    "url": "https://github.com/instalator/ioBroker.vis-players"
+    "url": "https://github.com/iobroker-community-adapters/ioBroker.vis-players"
   },
   "keywords": [
     "ioBroker",
@@ -44,7 +44,7 @@
     "sinon-chai": "^3.5.0"
   },
   "bugs": {
-    "url": "https://github.com/instalator/ioBroker.vis-players/issues"
+    "url": "https://github.com/iobroker-community-adapters/ioBroker.vis-players/issues"
   },
   "main": "widgets/players.html",
   "scripts": {
