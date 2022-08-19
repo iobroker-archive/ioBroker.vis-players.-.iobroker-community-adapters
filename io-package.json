@@ -1,7 +1,7 @@
 {
   "common": {
     "name": "vis-players",
-    "version": "0.1.7",
+    "version": "0.2.0",
     "title": "Visualisation - Media players widgets",
     "titleLang": {
       "en": "Media players widgets",
@@ -16,6 +16,18 @@
       "zh-cn": "媒体角色担心目标"
     },
     "news": {
+      "0.2.0": {
+        "en": "Updated build process",
+        "de": "Aktualisierter Build-Prozess",
+        "ru": "Обновлен процесс сборки",
+        "pt": "Processo de compilação atualizado",
+        "nl": "Opgegroeid bouwproces",
+        "fr": "Processus de construction mis à jour",
+        "it": "Processo di costruzione aggiornato",
+        "es": "Proceso de construcción actualizado",
+        "pl": "Proces budowy",
+        "zh-cn": "B. 更新的建设进程"
+      },
       "0.1.7": {
         "en": "fix error",
         "de": "fix error",
@@ -89,6 +101,5 @@
   "native": {
     "dependencies": []
   },
-  "instanceObjects": [
-  ]
+  "instanceObjects": []
 }

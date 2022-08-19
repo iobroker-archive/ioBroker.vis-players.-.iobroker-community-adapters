@@ -18,7 +18,7 @@ Widgets for media players.
 -->
 
 ## Changelog
-### **WORK IN PROGRESS**
+### 0.2.0 (2022-08-19)
 * (bluefox) Updated build process
 
 ### 0.1.7
