@@ -3,6 +3,18 @@
     "name": "vis-players",
     "version": "0.1.7",
     "title": "Visualisation - Media players widgets",
+    "titleLang": {
+      "en": "Media players widgets",
+      "de": "Medienspieler Widgets",
+      "ru": "Виджеты медиа проигрывателей",
+      "pt": "Widgets de jogadores de mídia",
+      "nl": "Media spelers Widgets",
+      "fr": "Les widgets des lecteurs multimédias",
+      "it": "Widget di lettori multimediali",
+      "es": "Media players widgets",
+      "pl": "Odtwarzacz mediów",
+      "zh-cn": "媒体角色担心目标"
+    },
     "news": {
       "0.1.7": {
         "en": "fix error",
@@ -62,12 +74,17 @@
       "vis"
     ],
     "onlyWWW": true,
+    "adminUI": {
+      "config": "none"
+    },
     "noConfig": true,
     "singleton": true,
     "type": "visualization-widgets",
     "restartAdapters": [
       "vis"
-    ]
+    ],
+    "connectionType": "local",
+    "dataSource": "push"
   },
   "native": {
     "dependencies": []
